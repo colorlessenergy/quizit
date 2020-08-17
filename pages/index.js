@@ -61,6 +61,14 @@ export function getStaticProps() {
     {
       question: 'What is the DOM?',
       answer: 'The Document Object Model is a representation of the HTML that is written. The DOM provides an API that allows JavaScript to manipulate it.'
+    },
+    {
+      question: 'How does this in JavaScript work?',
+      answer: '"this" is set when a function is called, to find out what value it holds you have to look at where it is called. For example, if a function is called on the global scope "this" will be the Window object in non-strict mode otherwise it will be undefined. "this" can be bounded by using bind, apply or call.'
+    },
+    {
+      question: 'Explain how prototypal inheritance works',
+      answer: 'prototypal inheritance is when an object is linked to another object. An object can retrieve any values from the object it is linked with.'
     }
   ]
 
