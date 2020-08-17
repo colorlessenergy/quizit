@@ -69,6 +69,14 @@ export function getStaticProps() {
     {
       question: 'Explain how prototypal inheritance works',
       answer: 'prototypal inheritance is when an object is linked to another object. An object can retrieve any values from the object it is linked with.'
+    },
+    {
+      question: 'What is the difference between a variable that is null, undefined or undeclared',
+      answer: 'when a variable is null it means that it has no value currently. when a variable is undefined it means it was declared but not initialize with a value. When a variable is undeclared it means that the variable was used before initializing or declaring with var or let.'
+    },
+    {
+      question: 'How to check if a variable is null, undefined or undeclared',
+      answer: 'To check for null you could do null === null. When strictly comparing null to itself it will be true. When comparing it with a different value it will be false. when checking for undefined you can do undefined === undefined. When checking for an undeclared variable you can try using it, an error should be thrown.'
     }
   ]
 
