@@ -53,6 +53,14 @@ export function getStaticProps() {
     {
       question: 'What is event delegation?',
       answer: 'When clicking an element, the click event will travel through elements from outer to inner or from inner to outer and click them. It will travel from outer to inner if capture is set to true. By default it will travel from inner to outer, this is known as bubbling'
+    },
+    {
+      question: 'What is a closure?',
+      answer: 'A closure is when function can access its lexical scope when executed outside that scope'
+    },
+    {
+      question: 'What is the DOM?',
+      answer: 'The Document Object Model is a representation of the HTML that is written. The DOM provides an API that allows JavaScript to manipulate it.'
     }
   ]
 
