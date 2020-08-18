@@ -77,6 +77,10 @@ export function getStaticProps() {
     {
       question: 'How to check if a variable is null, undefined or undeclared',
       answer: 'To check for null you could do null === null. When strictly comparing null to itself it will be true. When comparing it with a different value it will be false. when checking for undefined you can do undefined === undefined. When checking for an undeclared variable you can try using it, an error should be thrown.'
+    },
+    {
+      question: 'What is REST',
+      answer: 'Representational State Transfer is the idea of being stateless and separation of the client and server. This means that the server and client can run on there own and a resource can be fetched without having to have any knowledge about the client or server. The 4 HTTP requests that are used to fetch resources/data from the server are GET, POST, PUT, and DELETE requests. A GET request is used to retrieve data, a POST request is used to create data. A PUT request is used to update data, and a DELETE request is used to delete data. When making a request the path needs to be clear on what it is trying to do.'
     }
   ]
 
