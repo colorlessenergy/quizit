@@ -81,6 +81,10 @@ export function getStaticProps() {
     {
       question: 'What is REST',
       answer: 'Representational State Transfer is the idea of being stateless and separation of the client and server. This means that the server and client can run on there own and a resource can be fetched without having to have any knowledge about the client or server. The 4 HTTP requests that are used to fetch resources/data from the server are GET, POST, PUT, and DELETE requests. A GET request is used to retrieve data, a POST request is used to create data. A PUT request is used to update data, and a DELETE request is used to delete data. When making a request the path needs to be clear on what it is trying to do.'
+    },
+    {
+      question: 'What is doctype',
+      answer: 'The doctype tells the browser what version of HTML is being used.'
     }
   ]
 
