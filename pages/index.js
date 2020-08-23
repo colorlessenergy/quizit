@@ -85,6 +85,10 @@ export function getStaticProps() {
     {
       question: 'What is doctype',
       answer: 'The doctype tells the browser what version of HTML is being used.'
+    },
+    {
+      question: 'What is the difference between == vs ===',
+      answer: 'When comparing values triple equal will not allow coercion. Double equal does allow coercion.'
     }
   ]
 
