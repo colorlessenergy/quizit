@@ -89,6 +89,10 @@ export function getStaticProps() {
     {
       question: 'What is the difference between == vs ===',
       answer: 'When comparing values triple equal will not allow coercion. Double equal does allow coercion.'
+    },
+    {
+      question: 'What is hoisting',
+      answer: 'hoisting is the idea that all declarations are moved to the top of the scope. For Example, you could use a function before it is defined as long as it was defined somewhere in that scope.'
     }
   ]
 
