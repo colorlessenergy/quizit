@@ -93,6 +93,10 @@ export function getStaticProps() {
     {
       question: 'What is hoisting',
       answer: 'hoisting is the idea that all declarations are moved to the top of the scope. For Example, you could use a function before it is defined as long as it was defined somewhere in that scope.'
+    },
+    {
+      question: 'What is coercion?',
+      answer: 'Coercion is when the type of a value is changed from one to another.'
     }
   ]
 
