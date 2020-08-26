@@ -97,6 +97,10 @@ export function getStaticProps() {
     {
       question: 'What is coercion?',
       answer: 'Coercion is when the type of a value is changed from one to another.'
+    },
+    {
+      question: 'how to check if a value is NaN',
+      answer: 'The Number.isNaN() is used to check if is NaN. You could also compare it to itself because it is the only value that is not equal to itself'
     }
   ]
 
