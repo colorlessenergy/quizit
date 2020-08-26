@@ -27,7 +27,7 @@ export default function Home({ questions }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1>
+      <h1 className={classes['title']}>
         quiz it
       </h1>
 
