@@ -100,7 +100,11 @@ export function getStaticProps() {
     },
     {
       question: 'how to check if a value is NaN',
-      answer: 'The Number.isNaN() is used to check if is NaN. You could also compare it to itself because it is the only value that is not equal to itself'
+      answer: 'The Number.isNaN() method is used to check if is NaN. You could also compare it to itself because it is the only value that is not equal to itself'
+    },
+    {
+      question: 'Why is it a good idea to leave the global scope namespace empty?',
+      answer: 'It is a good idea to not define variables in the global scope because the global scope is shared among different JavaScript files. This will make it likely lead to the same name collisions.'
     }
   ]
 
