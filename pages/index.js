@@ -105,6 +105,10 @@ export function getStaticProps() {
     {
       question: 'Why is it a good idea to leave the global scope namespace empty?',
       answer: 'It is a good idea to not define variables in the global scope because the global scope is shared among different JavaScript files. This will make it likely lead to the same name collisions.'
+    },
+    {
+      question: 'What is a IIFE?',
+      answer: 'An immediately invoked function expression is a function that is run as soon as it is defined. It is used to not pollute the global scope. Often an object is returned to be able to access values inside the function scope outside it.'
     }
   ]
 
