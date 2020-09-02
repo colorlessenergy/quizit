@@ -109,6 +109,10 @@ export function getStaticProps() {
     {
       question: 'What is a IIFE?',
       answer: 'An immediately invoked function expression is a function that is run as soon as it is defined. It is used to not pollute the global scope. Often an object is returned to be able to access values inside the function scope outside it.'
+    },
+    {
+      question: 'Why do you think React is good for creating UIs',
+      answer: 'React allows the website to be separated into components. This makes it easier to create and make changes because all related code will be together.'
     }
   ]
 
