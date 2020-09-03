@@ -113,6 +113,10 @@ export function getStaticProps() {
     {
       question: 'Why do you think React is good for creating UIs',
       answer: 'React allows the website to be separated into components. This makes it easier to create and make changes because all related code will be together.'
+    },
+    {
+      question: 'What is JavaScript?',
+      answer: 'JavaScript is a language that adds interactivity to the browser. For example, somebody could input a number into a form and get that number back multiplied by 2.'
     }
   ]
 
