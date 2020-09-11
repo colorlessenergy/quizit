@@ -178,6 +178,11 @@ export function getStaticProps() {
       question: 'What is JavaScript?',
       answer: 'JavaScript is a language that adds interactivity to the browser. For example, somebody could input a number into a form and get that number back multiplied by 2.',
       tag: 'javascript'
+    },
+    {
+      question: 'what are Semantic tags?',
+      answer: 'semantic tags give meaning to HTML elements. There are many semantic tags. For Example, the footer tag is used to display information about the website. Using semantic tags will help with SEO because it will be able to find important keywords.',
+      tag: 'html'
     }
   ]
 
