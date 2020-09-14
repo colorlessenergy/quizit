@@ -101,7 +101,7 @@ export function getStaticProps() {
     },
     {
       question: 'What is a closure?',
-      answer: 'A closure is when function can access its lexical scope when executed outside that scope',
+      answer: 'A closure is when a function can access its lexical scope when executed outside that scope',
       tag: 'javascript'
     },
     {
@@ -181,8 +181,13 @@ export function getStaticProps() {
     },
     {
       question: 'what are Semantic tags?',
-      answer: 'semantic tags give meaning to HTML elements. There are many semantic tags. For Example, the footer tag is used to display information about the website. Using semantic tags will help with SEO because it will be able to find important keywords.',
+      answer: 'Semantic tags give meaning to HTML elements. There are many semantic tags. For Example, the footer tag is used to display information about the website. Using semantic tags will help with SEO because it will be able to find important keywords.',
       tag: 'html'
+    },
+    {
+      question: 'what would typeof typeof 1 return',
+      answer: 'It would return a string because typeof 1 returns "number" and typeof "number" is "string"',
+      tag: 'javascript'
     }
   ]
 
