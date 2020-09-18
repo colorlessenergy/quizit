@@ -188,6 +188,10 @@ export function getStaticProps() {
       question: 'what would typeof typeof 1 return',
       answer: 'It would return a string because typeof 1 returns "number" and typeof "number" is "string"',
       tag: 'javascript'
+    },
+    {
+      question: 'What does it mean when the OR and AND operators are short-circuited?',
+      answer: 'It means that as soon as one of the values is true for the OR operator it will stop and return that value. likewise, if one the values evaluate to false for the AND operator it will stop and return the value.'
     }
   ]
 
