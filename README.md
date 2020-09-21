@@ -1,3 +1,5 @@
 # quiz it
 
-technical questions
+Questions about HTML, CSS, and JavaScript.
+
+[quizit](https://quizit.vercel.app/)
