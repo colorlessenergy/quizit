@@ -191,7 +191,13 @@ export function getStaticProps() {
     },
     {
       question: 'What does it mean when the OR and AND operators are short-circuited?',
-      answer: 'It means that as soon as one of the values is true for the OR operator it will stop and return that value. likewise, if one the values evaluate to false for the AND operator it will stop and return the value.'
+      answer: 'It means that as soon as one of the values is true for the OR operator it will stop and return that value. likewise, if one the values evaluate to false for the AND operator it will stop and return the value.',
+      tag:' javascript'
+    },
+    {
+      question: 'Why would you use arrow function over traditional function?',
+      answer: 'The arrow function should be used whenever you want to use the "this" definition of the outside scope.',
+      tag: 'javascript'
     }
   ]
 
