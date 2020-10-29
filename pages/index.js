@@ -195,8 +195,13 @@ export function getStaticProps() {
       tag:' javascript'
     },
     {
-      question: 'Why would you use arrow function over traditional function?',
+      question: 'Why would you use arrow functions over traditional functions?',
       answer: 'The arrow function should be used whenever you want to use the "this" definition of the outside scope.',
+      tag: 'javascript'
+    },
+    {
+      question: 'what are promises in JavaScript?',
+      answer: 'A promise is a guaranteed asynchronous call that will is handled through a .then() if it is successful or a .catch() if it is not successful.',
       tag: 'javascript'
     }
   ]
